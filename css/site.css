@@ -3,6 +3,22 @@
 	text-decoration: none;
 }
 
+body
+{
+	background-color: #2b2b2b;
+	color: #ffffff;
+}
+
+a
+{
+	color: #9fd3ff;
+}
+
+a:hover
+{
+	color: #c7e6ff;
+}
+
 @media (min-width: 767px)
 {
 	body
