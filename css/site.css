@@ -12,6 +12,23 @@
 	--accent-hover: #9ee9ff;
 }
 
+@media (prefers-color-scheme: light)
+{
+	:root
+	{
+		--bg: #f7f7f5;
+		--text: #1f2227;
+		--muted: #4e5561;
+		--accent: #006e8a;
+		--accent-hover: #004f63;
+	}
+
+	.jumbotron h1
+	{
+		text-shadow: none;
+	}
+}
+
 body
 {
 	background-color: var(--bg);
